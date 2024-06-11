@@ -1,0 +1,37 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "MERN Stack blog",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon api/server",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "MERN",
+    "node",
+    "express",
+    "react",
+    "mongodb",
+    "frontend",
+    "backend",
+    "fullstack"
+  ],
+  "author": "Deepak Pun",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.3"
+  }
+}
